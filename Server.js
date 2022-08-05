@@ -54,7 +54,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-    res.send("Hello from  Equation calc drag drop server");
+    res.send("Hell IT'S Working");
 });
 
 app.listen(port, () => {
